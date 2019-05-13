@@ -21,7 +21,7 @@ const noop = () => {};
 @Component({
   selector: 'ng-multiselect-dropdown',
   templateUrl: './multi-select.component.html',
-  styleUrls: ['./multi-select.component.scss'],
+  styleUrls: [],
   providers: [DROPDOWN_CONTROL_VALUE_ACCESSOR],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
